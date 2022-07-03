@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
-
+/**
+ *The main function: to determine whether the number is positive or negative
+ * Return 0: Returns zero when the program is successiful
+ */
 int main(void)
 {
 	int n;
