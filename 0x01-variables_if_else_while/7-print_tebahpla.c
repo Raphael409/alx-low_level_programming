@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - entry point 
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return - always 0 when succcess
  */
 int main(void)
 {
 	char chr;
 
-	for (chr = 'z'; chr >= 'a'; chr--)
+	for (chr = 'z'; chr >= 'a' chr--)
 	{
 		putchar(chr);
 	}
