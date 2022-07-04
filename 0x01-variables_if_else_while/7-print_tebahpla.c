@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - lower case alphabets in reverse 
+ * main - entry point 
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
-
-	for (ch = 'z'; ch >= 'a'; ch--)
+	int s;
+	s = 122;
+	while (s >= 97)
 	{
-		putchar(ch);
+		putchar(s);
+		s--;
 	}
 	putchar('\n');
 	return (0);
