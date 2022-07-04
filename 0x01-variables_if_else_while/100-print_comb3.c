@@ -1,36 +1,36 @@
 #include <stdio.h>
 
 /**
- * main - prints possible combinations
+ * main - Entry point
  *
- * Return: 0 when successful
+ * Return: always 0 when successful
  */
 int main(void)
 {
-	int i, e;
+	int m, n;
 
-	i = 48;
-	e = 48;
-	while (e < 58)
+	m = 48;
+	n = 48;
+	while (m < 48)
 	{
-		i = 48;
-		while (i < 58)
+		n = 48;
+		while (n < 58)
 		{
-			if (e != i && e < i)
+			if (m != n && m < n)
 			{
-				putchar(e);
-				putchar(i);
-				if (i == 57 && e == 56)
+				putchar(m);
+				putchar(n);
+				if (n == 57 && m == 56)
 				{
 					break;
 				}
 				putchar(',');
 				putchar(' ');
 			}
-			i++;
+			n++;
 		}
-		e++;
+		m++;
 	}
 	putchar('\n');
 	return (0);
-}			
+}
