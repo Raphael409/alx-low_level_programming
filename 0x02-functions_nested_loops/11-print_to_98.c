@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_to_98 - to print natural numbers
  * @n: integer
@@ -11,7 +11,7 @@ void print_to_98(int n)
 	{
 		while (n < 98)
 		{
-			_putchar('%d', n);
+			printf('%d', n);
 			n++;
 		}
 	}
@@ -19,7 +19,7 @@ void print_to_98(int n)
 	{
 		while (n > 98)
 		{
-			_putchar('%d', n);
+			printf('%d', n);
 			n--;
 		}
 	}
