@@ -5,7 +5,7 @@
  * @s: string to determine the length
  * Return: 0 when success
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int n;
 	
@@ -16,4 +16,3 @@ int _strlen(char *s);
 	}
 	return (n);
 }
-
